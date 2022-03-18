@@ -1,0 +1,7 @@
+{
+  "name": "notwait",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
