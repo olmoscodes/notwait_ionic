@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="brand-login">
+    <div class="brand">
+      <div class="app-logo">notwait</div>
+      <div class="slogan">¡Que el esperar no te quite tiempo!</div>
+    </div>
+    <div class="client login">
+      <button class="basic-button" #loginRef>Entrar con Google</button>
+      <div *ngIf="name"
+        style="position: fixed; top: 30px; display: flex; font-size: 13px; flex-direction: column; align-items: center;">
+        <div>Logeado correctamente como {{name}}. </div>
+        <button style="margin-top: 10px;" (click)="logout()">Cerrar sesión</button>
+      </div>
+    </div>
+    <div class="business login">
+      <input class="basic-input" type="email" name="" id="" placeholder="Correo electrónico">
+      <input class="basic-input" type="password" name="" id="" placeholder="Contraseña">
+      <button class="basic-button">Inicia sesión</button>
+      <div class="separator">
+        <div class="line"></div>o<div class="line"></div>
+      </div>
+      <button class="basic-button">Regístrate</button>
+    </div>
+  </div>
+  <div class="options">
+    <div class="op-c option cliente" id="activateClient" >Cliente</div>
+    <div class="op-b option negocio" id="activateBusiness">Negocio</div>
+  </div>
+</div>

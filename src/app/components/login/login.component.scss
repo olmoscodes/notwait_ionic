@@ -1,0 +1,124 @@
+.container {
+    position: relative;
+    height: 85%;
+}
+
+@media (min-width: 600px) { 
+    .container {
+        width: 400px;
+    }
+}
+
+@media (max-width: 600px) { 
+    .container {
+        width: 100vw;
+    }
+}
+
+.brand-login {
+    position: relative;
+    width: 100%;
+    height: 82%;
+}
+
+.app-logo {
+    font-size: 44px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.options {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.options .option {
+    font-size: 17px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 12px 22px;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+}
+
+.options .option:hover {
+    cursor: pointer;
+}
+
+.cliente {
+    background-color: white;
+    color: #53ae55;
+}
+
+.negocio {
+    background-color: rgba(255, 255, 255, 0.418);
+    color: #53ae5475;
+}
+
+.slogan {
+    font-size: 17px;
+    margin-top: -5px;
+    color: white;
+}
+
+.basic-input {
+    background-color: white;
+    border-radius: 9px;
+    padding: 13px 22px;
+    width: calc(75% - 44px) !important;
+    margin-bottom: 20px;
+    border: 0;
+    font-size: 17px;
+    color: black;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.separator .line {
+    height: 1px;
+    width: 42%;
+    background-color: white;
+}
+
+
+.basic-button {
+    background-color: #187935;
+    border: 0;
+    border-radius: 9px;
+    padding: 13px 22px;
+    color: white;
+    font-size: 18px;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.basic-button:hover {
+    cursor: pointer;
+}
+
+.business {
+    pointer-events: none;
+    opacity: 0;
+}
+
