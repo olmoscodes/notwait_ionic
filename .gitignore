@@ -16,6 +16,7 @@ log.txt
 coverage/
 collection/
 dist/
+www/
 dist-transpiled/
 node_modules/
 tmp/
@@ -69,3 +70,10 @@ core/www/
 angular/build/
 
 .npmrc
+
+
+# firebase
+.firebase/
+.firebaserc
+
+
